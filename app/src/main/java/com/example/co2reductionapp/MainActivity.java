@@ -51,7 +51,17 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return new PageFragment();
+            switch (position) {
+                case 0:
+                    return new ActivitiesFragment();
+                case 1:
+                    return new EmptyFragment();
+                case 2:
+                    return new EmptyFragment();
+                default:
+                    throw new UnsupportedOperationException();
+            }
+
         }
 
         @Override
