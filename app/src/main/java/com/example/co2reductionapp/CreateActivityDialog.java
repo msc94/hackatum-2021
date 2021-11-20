@@ -145,8 +145,8 @@ public class CreateActivityDialog extends DialogFragment {
                 me.setGreenGems(me.getGreenGems() + 91);
 
                 status =
-                        "You planted a tree! \uD83C\uDF33 \n" +
-                        "You save the equivalent of " + _kgCO2Saved + "kg of CO2 per year!" +
+                        "You planted a tree! \uD83C\uDF33\n" +
+                        "You save the equivalent of " + _kgCO2Saved + "kg of CO2 per year!\n" +
                         "You've earned 91 green and 500 blue gems for that!";
                 showDialog(status);
 
