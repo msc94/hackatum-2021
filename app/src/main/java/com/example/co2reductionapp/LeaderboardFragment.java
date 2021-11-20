@@ -23,7 +23,7 @@ public class LeaderboardFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    String s1 [], s2[];
+    String s1 [], s2[],s3[],s4[];
     private RecyclerView recyclerView;
     int images[]={R.drawable.woman1,R.drawable.man1, R.drawable.man2};
 
@@ -75,12 +75,14 @@ public class LeaderboardFragment extends Fragment {
         // Inflate the layout for this fragment
         s1 = getResources().getStringArray(R.array.Leaderboardnames);
         s2 = getResources().getStringArray(R.array.description);
+        s3 = getResources().getStringArray(R.array.Leaderbluegems);
+        s4 = getResources().getStringArray(R.array.Leadergreencoinss);
         View view = inflater.inflate(R.layout.scrolldown, container, false);
         // Add the following lines to create RecyclerView
         recyclerView = view.findViewById(R.id.recyclerviews);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
-        recyclerView.setAdapter(new scrolldownfragment(getContext() ,s1,s2,images));
+        recyclerView.setAdapter(new scrolldownfragment(getContext() ,s1,s2,s3,s4,images));
         return view;
     }
 

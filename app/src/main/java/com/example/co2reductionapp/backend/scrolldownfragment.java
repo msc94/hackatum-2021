@@ -14,14 +14,16 @@ import androidx.annotation.NonNull;
 import com.example.co2reductionapp.R;
 
 public class scrolldownfragment extends RecyclerView.Adapter<scrolldownfragment.MyViewHolder> {
-    String data1[], data2[];
+    String data1[], data2[],data3[],data4[];
     int images[];
     Context context;
 
-    public scrolldownfragment(Context ct, String[] s1, String[] s2, int[] im){
+    public scrolldownfragment(Context ct, String[] s1, String[] s2,String[] s3,String[] s4, int[] im){
         context = ct;
         data1 = s1;
         data2 = s2;
+        data3=s3;
+        data4=s4;
         images = im ;
 
     }
@@ -38,10 +40,10 @@ public class scrolldownfragment extends RecyclerView.Adapter<scrolldownfragment.
         holder.Profileimage.setImageResource(R.drawable.man1);
         holder.nametext.setText(data1[position]);
         holder.descriptontext.setText(data2[position]);
-        holder.greencoinimage.setImageResource(R.drawable.greencoin);
-        holder.bluecoinimage.setImageResource(R.drawable.bluecoin);
-        holder.bluecoinnumber.setText("1");
-        holder.greencoinnumber.setText("1");
+        holder.greencoinimage.setImageResource(R.drawable.ecology);
+        holder.bluecoinimage.setImageResource(R.drawable.gem);
+        holder.bluecoinnumber.setText(data3[position]);
+        holder.greencoinnumber.setText(data4[position]);
 
     }
 

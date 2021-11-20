@@ -30,8 +30,40 @@
         <item>Samia</item>
 
     </string-array>
+    <string-array name="Leaderbluegems">
+        <item>4679</item>
+        <item>4529</item>
+        <item>4300</item>
+        <item>4220</item>
+        <item>4190</item>
+        <item>4180</item>
+        <item>4100</item>
+        <item>4093</item>
+        <item>3720</item>
+        <item>3648</item>
+        <item>3489</item>
+        <item>2003</item>
+        <item>1990</item>
+
+    </string-array>
 
 
+<string-array name="Leadergreencoinss">
+<item>4679</item>
+<item>4529</item>
+<item>4300</item>
+<item>4220</item>
+<item>4190</item>
+<item>4180</item>
+<item>4100</item>
+<item>4093</item>
+<item>3720</item>
+<item>3648</item>
+<item>3489</item>
+<item>2003</item>
+<item>1990</item>
+
+</string-array>
     <string-array name="description">
         <item>Hey i am great</item>
         <item>this is a randrom description</item>
