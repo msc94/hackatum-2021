@@ -12,9 +12,9 @@
         <item>🚗 Car</item>
         <item>🚲 Bike</item>
         <item>🚆 Train</item>
+    </string-array>
+
     <string-array name="Leaderboardnames">
-
-
         <item>Marcel</item>
         <item>Nick</item>
         <item>Rohan</item>
