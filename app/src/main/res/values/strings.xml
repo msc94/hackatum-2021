@@ -2,18 +2,26 @@
     <string name="app_name">CO2ReductionApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="sadasd">
+    <string-array name="Leaderboardnames">
 
 
-        <item>asd</item>
-        <item>as</item>
-        <item>a</item>
-
-        <item>aa</item>
+        <item>Marcel</item>
+        <item>Nick</item>
+        <item>Rohan</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
     </string-array>
 
 
     <string-array name="description">
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
         <item>this is a randrom description</item>
         <item>this is a randrom description</item>
         <item>this is a randrom description</item>

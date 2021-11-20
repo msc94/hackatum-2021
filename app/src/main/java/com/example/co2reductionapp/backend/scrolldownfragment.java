@@ -35,10 +35,14 @@ public class scrolldownfragment extends RecyclerView.Adapter<scrolldownfragment.
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+        holder.Profileimage.setImageResource(images[position]);
+        holder.nametext.setText(data1[position]);
+        holder.descriptontext.setText(data2[position]);
+        holder.greencoinimage.setImageResource(R.drawable.greencoin);
+        holder.bluecoinimage.setImageResource(R.drawable.bluecoin);
+        holder.bluecoinnumber.setText("1");
+        holder.greencoinnumber.setText("1");
 
-        holder.myText1.setText(data1[position]);
-        holder.myText2.setText(data2[position]);
-        holder.myImage.setImageResource(images[position]);
     }
 
     @Override
@@ -47,13 +51,18 @@ public class scrolldownfragment extends RecyclerView.Adapter<scrolldownfragment.
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView myText1, myText2;
-        ImageView myImage;
+        TextView nametext, descriptontext,bluecoinnumber,greencoinnumber;
+
+        ImageView Profileimage,greencoinimage,bluecoinimage;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            myText1= itemView.findViewById(R.id.title1);
-            myText2 = itemView.findViewById(R.id.descripton1);
-            myImage = itemView.findViewById(R.id.myimageView);
+            nametext = itemView.findViewById(R.id.title1);
+            descriptontext = itemView.findViewById(R.id.descripton1);
+            Profileimage = itemView.findViewById(R.id.myimageView);
+            greencoinimage =itemView.findViewById(R.id.greencoinimage);
+            bluecoinimage= itemView.findViewById(R.id.bluecoinimage);
+            bluecoinnumber = itemView.findViewById(R.id.bluecoinnumber);
+            greencoinnumber = itemView.findViewById(R.id.greencoinnumber);
         }
     }
 }
