@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="sadasd">
+
+
+        <item>asd</item>
+        <item>as</item>
+        <item>a</item>
+
+        <item>aa</item>
+    </string-array>
+
+
+    <string-array name="description">
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+
+
+    </string-array>
+</resources>
