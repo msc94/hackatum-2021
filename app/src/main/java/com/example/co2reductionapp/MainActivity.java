@@ -7,11 +7,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
-
+import androidx.recyclerview.widget.RecyclerView;
 import com.example.co2reductionapp.backend.Backend;
 import com.example.co2reductionapp.backend.User;
 import com.example.co2reductionapp.backend.activities.Activity;
+import com.example.co2reductionapp.backend.scrolldownfragment;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.List;
@@ -57,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
                     return new EmptyFragment();
                 case 2:
+
                     return new EmptyFragment();
                 default:
                     throw new UnsupportedOperationException();
