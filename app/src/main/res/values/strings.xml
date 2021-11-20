@@ -12,5 +12,32 @@
         <item>🚗 Car</item>
         <item>🚲 Bike</item>
         <item>🚆 Train</item>
+    <string-array name="Leaderboardnames">
+
+
+        <item>Marcel</item>
+        <item>Nick</item>
+        <item>Rohan</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+        <item>Alphin</item>
+    </string-array>
+
+
+    <string-array name="description">
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+
+
     </string-array>
 </resources>

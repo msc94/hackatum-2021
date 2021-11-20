@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return new ActivitiesFragment();
                 case 1:
-                    return new EmptyFragment();
+                    return new LeaderboardFragment();
                 case 2:
                     return new ProfileFragment();
                 default:
