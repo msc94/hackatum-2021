@@ -39,9 +39,6 @@ public class ProfileFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
-        List<User> users = Backend.getUsers(getResources());
-        User me = users.get(0);
-
         // Update view
         _linearLayout = view.findViewById(R.id.profile_linearlayout);
         _nameTextView = view.findViewById(R.id.name_textview);
@@ -52,17 +49,24 @@ public class ProfileFragment extends Fragment {
         FloatingActionButton fab = view.findViewById(R.id.add_activity_fab);
         fab.setOnClickListener(this::ShowCreateDialog);
 
+        updateValues();
+
+        return view;
+    }
+
+    public void updateValues() {
+        List<User> users = Backend.getUsers(getResources());
+        User me = users.get(0);
+
         _nameTextView.setText(me.getName());
         _profilePictureImageView.setImageBitmap(me.getProfilePicture());
         _greenGemsTextView.setText(String.valueOf(me.getGreenGems()));
         _blueGemsTextView.setText(String.valueOf(me.getBlueGems()));
         _linearLayout.requestLayout();
-
-        return view;
     }
 
     private void ShowCreateDialog(View view) {
-        DialogFragment dialog = new CreateActivityDialog();
+        DialogFragment dialog = new CreateActivityDialog(this);
         dialog.show(getFragmentManager(), "createdialog");
     }
 }

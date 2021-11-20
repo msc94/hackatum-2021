@@ -9,7 +9,7 @@
     </string-array>
 
     <string-array name="vehicles_array">
-        <item>🚗 Car</item>
+        <item>🚶 Walking</item>
         <item>🚲 Bike</item>
         <item>🚆 Train</item>
     </string-array>
