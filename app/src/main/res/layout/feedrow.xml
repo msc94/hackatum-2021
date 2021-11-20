@@ -29,7 +29,7 @@
                 android:layout_height="54dp"
                 tools:layout_editor_absoluteX="4dp"
                 tools:layout_editor_absoluteY="5dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@drawable/electriccar" />
 
             <TextView
                 android:id="@+id/activityscore"
