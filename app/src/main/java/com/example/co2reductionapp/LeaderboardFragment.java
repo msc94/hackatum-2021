@@ -25,7 +25,7 @@ public class LeaderboardFragment extends Fragment {
     private static final String ARG_PARAM2 = "param2";
     String s1 [], s2[];
     private RecyclerView recyclerView;
-    int images[]={R.drawable.ads1,R.drawable.ads2,R.drawable.ads3,R.drawable.ads4};
+    int images[]={R.drawable.woman1,R.drawable.man1, R.drawable.man2};
 
 
     // TODO: Rename and change types of parameters

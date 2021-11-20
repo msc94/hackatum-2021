@@ -35,7 +35,7 @@ public class scrolldownfragment extends RecyclerView.Adapter<scrolldownfragment.
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.Profileimage.setImageResource(R.drawable.ads1);
+        holder.Profileimage.setImageResource(R.drawable.man1);
         holder.nametext.setText(data1[position]);
         holder.descriptontext.setText(data2[position]);
         holder.greencoinimage.setImageResource(R.drawable.greencoin);

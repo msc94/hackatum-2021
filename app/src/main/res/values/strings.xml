@@ -15,22 +15,29 @@
     </string-array>
 
     <string-array name="Leaderboardnames">
-
-
         <item>Marcel</item>
         <item>Nick</item>
         <item>Rohan</item>
-        <item>Alphin</item>
-        <item>Alphin</item>
-        <item>Alphin</item>
-        <item>Alphin</item>
-        <item>Alphin</item>
-        <item>Alphin</item>
+        <item>George</item>
+        <item>Zack</item>
+        <item>Jody</item>
+        <item>Sam</item>
+        <item>Phil</item>
+        <item>Karla</item>
+        <item>Kevin</item>
+        <item>Andy</item>
+        <item>Andrew</item>
+        <item>Samia</item>
+
     </string-array>
 
 
     <string-array name="description">
         <item>Hey i am great</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
+        <item>this is a randrom description</item>
         <item>this is a randrom description</item>
         <item>this is a randrom description</item>
         <item>this is a randrom description</item>
