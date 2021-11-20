@@ -1,6 +1,7 @@
 package com.example.co2reductionapp;
 
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setAdapter(new ScreenSlidePagerAdapter(getSupportFragmentManager()));
+        mPager.setCurrentItem(2);
 
         mTabLayout = (TabLayout) findViewById(R.id.tab_layout);
         mTabLayout.setupWithViewPager(mPager);
@@ -57,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
                     return new EmptyFragment();
                 case 2:
-                    return new EmptyFragment();
+                    return new ProfileFragment();
                 default:
                     throw new UnsupportedOperationException();
             }

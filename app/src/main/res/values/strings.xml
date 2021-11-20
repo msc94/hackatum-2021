@@ -2,4 +2,15 @@
     <string name="app_name">CO2ReductionApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="activities_array">
+        <item>🌳 🌲 Plant a tree</item>
+        <item>🚲 🚆 Commute</item>
+    </string-array>
+
+    <string-array name="vehicles_array">
+        <item>🚗 Car</item>
+        <item>🚲 Bike</item>
+        <item>🚆 Train</item>
+    </string-array>
 </resources>

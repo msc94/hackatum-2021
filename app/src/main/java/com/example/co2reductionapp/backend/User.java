@@ -11,6 +11,7 @@ import java.util.List;
 public class User {
     private final String name;
     private final Bitmap profilePicture;
+
     /**
      * Additional data:
      * - birthday
@@ -20,11 +21,28 @@ public class User {
     private final List<Activity> activities = new ArrayList<>();
     private final List<User> friends = new ArrayList<>();
 
-    private int points = 0;
+    private int greenGems = 170;
+    private int blueGems = 150;
 
     public User(String name, Bitmap profilePicture) {
         this.name = name;
         this.profilePicture = profilePicture;
+    }
+
+    public int getGreenGems() {
+        return greenGems;
+    }
+
+    public void setGreenGems(int greenGems) {
+        this.greenGems = greenGems;
+    }
+
+    public int getBlueGems() {
+        return blueGems;
+    }
+
+    public void setBlueGems(int blueGems) {
+        this.blueGems = blueGems;
     }
 
     public String getName() {
