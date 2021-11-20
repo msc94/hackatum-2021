@@ -30,7 +30,7 @@
 
 
     <string-array name="description">
-        <item>this is a randrom description</item>
+        <item>Hey i am great</item>
         <item>this is a randrom description</item>
         <item>this is a randrom description</item>
         <item>this is a randrom description</item>
@@ -49,6 +49,11 @@
         <item>ecobag</item>
         <item>fertilizer</item>
         <item>seeding</item>
+        <item>water</item>
+        <item>subway</item>
+        <item>pedistrian</item>
+        <item>placard</item>
+        <item>flash</item>
    </string-array>
 
     <string-array name="activity_numbers">
@@ -57,5 +62,10 @@
         <item>used 7 times</item>
         <item>used 7 times</item>
         <item>6 planted</item>
+        <item>700 liter used</item>
+        <item>8 times used</item>
+        <item>6000 steps</item>
+        <item>8 times used</item>
+        <item>90 KWH</item>
     </string-array>
 </resources>

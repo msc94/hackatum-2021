@@ -35,7 +35,7 @@ public class ActivitiesFragment extends Fragment {
     private String mParam2;
     String s1 [], s2[];
     private RecyclerView recyclerView;
-    int images[]={R.drawable.bicycle,R.drawable.bus,R.drawable.ecobag,R.drawable.fertilizer,R.drawable.seeding};
+    int images[]={R.drawable.bicycle,R.drawable.bus,R.drawable.ecobag,R.drawable.fertilizer,R.drawable.seeding,R.drawable.water,R.drawable.subway,R.drawable.pedestrian,R.drawable.placard,R.drawable.flash};
 
     public ActivitiesFragment() {
         // Required empty public constructor

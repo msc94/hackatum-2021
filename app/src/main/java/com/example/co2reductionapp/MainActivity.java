@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                     return new LeaderboardFragment();
                 case 2:
                     return new ProfileFragment();
+                case 3:
+                    return new LeaderboardFragment();
                 default:
                     throw new UnsupportedOperationException();
             }
@@ -68,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 3;
+            return 4;
         }
 
         @Override
@@ -80,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
                     return "Leaderboard";
                 case 2:
                     return "Profile";
+                case 3:
+                    return "feed";
                 default:
                     throw new UnsupportedOperationException();
             }
