@@ -16,21 +16,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/Activitytitel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                tools:layout_editor_absoluteX="41dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteX="74dp"
+                tools:layout_editor_absoluteY="23dp" />
 
             <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="33dp"
-                android:layout_height="49dp"
+                android:id="@+id/imageactivity"
+                android:layout_width="70dp"
+                android:layout_height="54dp"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="5dp"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/activityscore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
@@ -39,12 +41,12 @@
 
             <TextureView
                 android:id="@+id/textureView"
-                android:layout_width="200dp"
+                android:layout_width="163dp"
                 android:layout_height="60dp"
                 android:background="#88D332"
                 android:backgroundTint="#C6C8FB8C"
                 android:backgroundTintMode="multiply"
-                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteX="140dp"
                 tools:layout_editor_absoluteY="4dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
