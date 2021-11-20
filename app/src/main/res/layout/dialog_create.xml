@@ -12,7 +12,7 @@
         android:text="Create Activity"
         android:gravity="center"
         android:scaleType="center"
-        android:background="@color/purple_500"
+        android:background="@color/green1"
         android:textColor="@color/white"
         android:contentDescription="@string/app_name" />
 

@@ -180,8 +180,8 @@ public class CreateActivityDialog extends DialogFragment {
 
                 showDialog(status);
 
-                me.setBlueGems(me.getBlueGems() + greenGems);
-                me.setGreenGems(me.getGreenGems() + blueGems);
+                me.setBlueGems(me.getBlueGems() + blueGems);
+                me.setGreenGems(me.getGreenGems() + greenGems);
 
                 break;
         }
