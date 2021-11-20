@@ -14,6 +14,8 @@ import com.example.co2reductionapp.backend.Backend;
 import com.example.co2reductionapp.backend.User;
 
 import java.util.List;
+
+import com.example.co2reductionapp.backend.activityscrolldown;
 import com.example.co2reductionapp.backend.scrolldownfragment;
 
 /**
@@ -70,14 +72,14 @@ public class ActivitiesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        s1 = getResources().getStringArray(R.array.Leaderboardnames);
-        s2 = getResources().getStringArray(R.array.description);
-        View view = inflater.inflate(R.layout.scrolldown, container, false);
+        s1 = getResources().getStringArray(R.array.activity_names);
+        s2 = getResources().getStringArray(R.array.activity_numbers);
+        View view = inflater.inflate(R.layout.scrolldownfeed, container, false);
         // Add the following lines to create RecyclerView
-        recyclerView = view.findViewById(R.id.recyclerviews);
+        recyclerView = view.findViewById(R.id.recycleractivitys);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
-        recyclerView.setAdapter(new scrolldownfragment(getContext() ,s1,s2,images));
+        recyclerView.setAdapter(new activityscrolldown(getContext() ,s1,s2,images));
         return view;
     }
 }

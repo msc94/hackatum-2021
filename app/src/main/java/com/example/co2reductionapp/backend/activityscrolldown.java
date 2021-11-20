@@ -10,9 +10,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.co2reductionapp.ActivitiesFragment;
 import com.example.co2reductionapp.R;
 
-public class activityscrolldown extends RecyclerView.Adapter<scrolldownfragment.MyViewHolder> {
+public class activityscrolldown extends RecyclerView.Adapter<activityscrolldown.MyViewHolder2> {
     String data1[], data2[];
     int images[];
     Context context;
@@ -26,15 +27,15 @@ public class activityscrolldown extends RecyclerView.Adapter<scrolldownfragment.
     }
     @NonNull
     @Override
-    public scrolldownfragment.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public MyViewHolder2 onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View view=inflater.inflate(R.layout.feedrow, parent, false);
-        return new scrolldownfragment.MyViewHolder(view);
+        return new MyViewHolder2(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull scrolldownfragment.MyViewHolder holder, int position) {
-        holder.Profileimage.setImageResource(R.drawable.ads1);
+    public void onBindViewHolder(@NonNull MyViewHolder2 holder, int position) {
+        holder.Profileimage.setImageResource(images[position]);
         holder.nametext.setText(data1[position]);
         holder.descriptontext.setText(data2[position]);
 
@@ -47,19 +48,16 @@ public class activityscrolldown extends RecyclerView.Adapter<scrolldownfragment.
         return data1.length;
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    public  class MyViewHolder2 extends RecyclerView.ViewHolder {
         TextView nametext, descriptontext,bluecoinnumber,greencoinnumber;
 
         ImageView Profileimage,greencoinimage,bluecoinimage;
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder2(@NonNull View itemView) {
             super(itemView);
-            nametext = itemView.findViewById(R.id.title1);
-            descriptontext = itemView.findViewById(R.id.descripton1);
-            Profileimage = itemView.findViewById(R.id.myimageView);
-            greencoinimage =itemView.findViewById(R.id.greencoinimage);
-            bluecoinimage= itemView.findViewById(R.id.bluecoinimage);
-            bluecoinnumber = itemView.findViewById(R.id.bluecoinnumber);
-            greencoinnumber = itemView.findViewById(R.id.greencoinnumber);
+            nametext = itemView.findViewById(R.id.Activitytitel);
+            descriptontext = itemView.findViewById(R.id.activityscore);
+            Profileimage = itemView.findViewById(R.id.imageactivity);
+
         }
     }
 }
