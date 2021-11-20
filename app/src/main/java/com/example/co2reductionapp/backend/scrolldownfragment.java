@@ -50,7 +50,7 @@ public class scrolldownfragment extends RecyclerView.Adapter<scrolldownfragment.
         return data1.length;
     }
 
-    public static class MyViewHolder extends RecyclerView.ViewHolder {
+    public  class MyViewHolder extends RecyclerView.ViewHolder {
         TextView nametext, descriptontext,bluecoinnumber,greencoinnumber;
 
         ImageView Profileimage,greencoinimage,bluecoinimage;
