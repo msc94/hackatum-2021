@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.co2reductionapp.ActivitiesFragment;
 import com.example.co2reductionapp.R;
 
 public class activityscrolldown extends RecyclerView.Adapter<activityscrolldown.MyViewHolder2> {
@@ -29,7 +28,7 @@ public class activityscrolldown extends RecyclerView.Adapter<activityscrolldown.
     @Override
     public MyViewHolder2 onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        View view=inflater.inflate(R.layout.feedrow, parent, false);
+        View view=inflater.inflate(R.layout.activitiyrow, parent, false);
         return new MyViewHolder2(view);
     }
 

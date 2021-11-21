@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 case 2:
                     return new ProfileFragment();
                 case 3:
-                    return new LeaderboardFragment();
+                    return new feedfragment();
                 default:
                     throw new UnsupportedOperationException();
             }
