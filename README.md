@@ -44,16 +44,16 @@ There is also an opportunity to partner with various agencies like waste managem
 
 ## Activities
 
-![Activities](/screenshots/20211121_113019.png?raw=true "Activities"){:height="50%" width="50%"}
+![Activities](/screenshots/20211121_113019.png?raw=true "Activities")
 
 ## Leaderboard
 
-![Leaderboard](/screenshots/20211121_113059.png?raw=true "Leaderboard"){:height="50%" width="50%"}
+![Leaderboard](/screenshots/20211121_113059.png?raw=true "Leaderboard")
 
 ## Profile
 
-![Profile](/screenshots/20211121_113102.png?raw=true "Profile"){:height="50%" width="50%"}
+![Profile](/screenshots/20211121_113102.png?raw=true "Profile")
 
 ## Feed
 
-![Feed](/screenshots/20211121_113104.png?raw=true "Feed"){:height="50%" width="50%"}
+![Feed](/screenshots/20211121_113104.png?raw=true "Feed")
