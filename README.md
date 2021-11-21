@@ -2,7 +2,7 @@
 
 # Inspiration
 
-Climate change has multiple sobering consequences: increasing temperature, melting glaciers, frequent extreme weather events and creation of millions of climate refugees. However, the governments across the globe have been fairly incompetent in fighting this crisis effectively, there seems to have no consensus among the intellectuals and lobbying from oil and gas corporations been holding us back.
+Climate change has multiple sobering consequences: **increasing temperature, melting glaciers, frequent extreme weather events and creation of millions of climate refugees**. However, the governments across the globe have been fairly incompetent in fighting this crisis effectively, there seems to have no consensus among the intellectuals and lobbying from oil and gas corporations been holding us back.
 
 We think, in this situation, every single person need to take responsibility and only collective action can avert the looming climate disaster. For the common people, climate change seems to be more of an abstract problem and they seem very hard to be motivated to change their behavior. The complex graphs and long reports doesn't help either. So, how can we reach these people? We believe games have the capability of behavioural modifications, and we need it on a global scale at present. So, we propose a social game, Planet2100, to change the attitude of people with the competitions giving motivation and rewards driving engagement.
 
@@ -34,7 +34,7 @@ We built a functional prototype of our app in one day all while figuring out the
 
 Developing an Android app in one day is hard. ;)
 
-#What's next for Planet2100
+# What's next for Planet2100
 
 We'll need to finish the prototype and build a business model. In the long term, the app can be expanded to multiple cities across the globe, and even suburbs and rural areas to have as many people as possible on-board, because only if every single person on the planet, do their part, we can save ourselves.
 
