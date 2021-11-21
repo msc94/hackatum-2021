@@ -45,7 +45,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="wrap_content"
                 android:layout_gravity="left"
-                android:text="Green Gems:" />
+                android:text="Green Coins:" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/green" />
+                    android:src="@drawable/ecology" />
             </LinearLayout>
         </LinearLayout>
 
@@ -98,7 +98,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/blue" />
+                    android:src="@drawable/gem" />
             </LinearLayout>
         </LinearLayout>
 

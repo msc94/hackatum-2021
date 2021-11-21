@@ -147,7 +147,7 @@ public class CreateActivityDialog extends DialogFragment {
                 status =
                         "You planted a tree! \uD83C\uDF33\n" +
                         "You save the equivalent of " + _kgCO2Saved + "kg of CO2 per year!\n" +
-                        "You've earned 91 green and 500 blue gems for that!";
+                        "You've earned 91 green coins and 500 blue gems for that!";
                 showDialog(status);
 
                 break;
@@ -176,7 +176,7 @@ public class CreateActivityDialog extends DialogFragment {
                 status =
                         "You made your commute without the car! \uD83D\uDEB6 \uD83D\uDEB2 \uD83D\uDE86\n" +
                         "By using a " + _selectedVehicle.toString().toLowerCase() + " instead, you saved the equivalent of " + kgCO2Saved + " kg of CO2!\n" +
-                        "You get " + greenGems + " green gems and 10 blue gems for that!";
+                        "You get " + greenGems + " green coins and 10 blue gems for that!";
 
                 showDialog(status);
 

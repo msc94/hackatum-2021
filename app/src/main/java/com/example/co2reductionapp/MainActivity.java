@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
                 default:
                     throw new UnsupportedOperationException();
             }
-
         }
 
         @Override
