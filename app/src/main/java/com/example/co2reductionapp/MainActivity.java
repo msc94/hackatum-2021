@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setAdapter(new ScreenSlidePagerAdapter(getSupportFragmentManager()));
-        mPager.setCurrentItem(2);
+        // mPager.setCurrentItem(2);
 
         mTabLayout = (TabLayout) findViewById(R.id.tab_layout);
         mTabLayout.setupWithViewPager(mPager);
