@@ -83,28 +83,28 @@
     </string-array>
 
     <string-array name="activity_names">
-        <item>bicycle</item>
+        <item>Bicycle</item>
         <item>Bus</item>
-        <item>ecobag</item>
-        <item>fertilizer</item>
-        <item>seeding</item>
-        <item>water</item>
-        <item>subway</item>
-        <item>pedistrian</item>
-        <item>placard</item>
-        <item>flash</item>
+        <item>Ecobag</item>
+        <item>Composting</item>
+        <item>Seeding</item>
+        <item>Water</item>
+        <item>Subway/Metro</item>
+        <item>Pedestrian</item>
+        <item>Event</item>
+        <item>Electricity</item>
    </string-array>
 
     <string-array name="activity_numbers">
-        <item>6 Km rode</item>
-        <item>20 Km used</item>
-        <item>used 7 times</item>
-        <item>used 7 times</item>
-        <item>6 planted</item>
-        <item>700 liter used</item>
-        <item>8 times used</item>
-        <item>6000 steps</item>
-        <item>8 times used</item>
-        <item>90 KWH</item>
+        <item>6km rode</item>
+        <item>20km journey</item>
+        <item>Used 7 times</item>
+        <item>Used 7 times</item>
+        <item>Planted 6 trees</item>
+        <item>Consumed 700 liters</item>
+        <item>Used 8 times</item>
+        <item>Walked 6000 steps</item>
+        <item>Used 8 times</item>
+        <item>Consumed 90kWh</item>
     </string-array>
 </resources>
