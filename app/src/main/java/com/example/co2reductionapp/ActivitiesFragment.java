@@ -3,7 +3,6 @@ package com.example.co2reductionapp;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,8 +11,6 @@ import android.view.ViewGroup;
 
 import com.example.co2reductionapp.backend.Backend;
 import com.example.co2reductionapp.backend.User;
-
-import java.util.List;
 
 import com.example.co2reductionapp.backend.activityscrolldown;
 import com.example.co2reductionapp.backend.scrolldownfragment;
@@ -74,7 +71,7 @@ public class ActivitiesFragment extends Fragment {
         // Inflate the layout for this fragment
         s1 = getResources().getStringArray(R.array.activity_names);
         s2 = getResources().getStringArray(R.array.activity_numbers);
-        View view = inflater.inflate(R.layout.scrolldownfeed, container, false);
+        View view = inflater.inflate(R.layout.scrolldownactivities, container, false);
         // Add the following lines to create RecyclerView
         recyclerView = view.findViewById(R.id.recycleractivitys);
         recyclerView.setHasFixedSize(true);

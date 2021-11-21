@@ -77,7 +77,7 @@ public class LeaderboardFragment extends Fragment {
         s2 = getResources().getStringArray(R.array.description);
         s3 = getResources().getStringArray(R.array.Leaderbluegems);
         s4 = getResources().getStringArray(R.array.Leadergreencoinss);
-        View view = inflater.inflate(R.layout.scrolldown, container, false);
+        View view = inflater.inflate(R.layout.scrolldownleaderboard, container, false);
         // Add the following lines to create RecyclerView
         recyclerView = view.findViewById(R.id.recyclerviews);
         recyclerView.setHasFixedSize(true);
