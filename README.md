@@ -40,4 +40,20 @@ We'll need to finish the prototype and build a business model. In the long term,
 
 There is also an opportunity to partner with various agencies like waste management companies, municipalities, utilities, etc. to have an anonymous verification of activities added by users through say QR codes. There could also be computer vision and machine learning capabilities to be integrated to verify images and build valuable insights that could influence global policy changes.
 
+# Media
 
+## Activities
+
+![Activities](/screenshots/20211121_113019.png?raw=true "Activities")
+
+## Leaderboard
+
+![Leaderboard](/screenshots/20211121_113059.png?raw=true "Leaderboard")
+
+## Profile
+
+![Profile](/screenshots/20211121_113102.png?raw=true "Profile")
+
+## Feed
+
+![Feed](/screenshots/20211121_113104.png?raw=true "Feed")
