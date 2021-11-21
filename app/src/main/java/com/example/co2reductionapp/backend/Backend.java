@@ -30,7 +30,7 @@ public class Backend {
     private static List<User> createUsers(Resources resources) {
         List<User> users = new ArrayList<>();
 
-        users.add(new User("Alphin Tom", BitmapFactory.decodeResource(resources, R.drawable.example_person)));
+        users.add(new User("Alphin Tom", BitmapFactory.decodeResource(resources, R.drawable.alphin)));
         users.add(new User("Nick", BitmapFactory.decodeResource(resources, R.drawable.example_person)));
         users.add(new User("Rohan Menon", BitmapFactory.decodeResource(resources, R.drawable.example_person)));
         users.add(new User("Marcel Schneider", BitmapFactory.decodeResource(resources, R.drawable.example_person)));
